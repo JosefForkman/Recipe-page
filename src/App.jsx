@@ -5,7 +5,7 @@ function App() {
     return (
         <main>
             <img src={omelette} alt="" />
-            <div className="wrapper padding-block-lg padding-inline-md">
+            <div className="wrapper padding-block-500 padding-inline-400">
                 <h1 className="text-DarkCharcoal">Simple Omelette Recipe</h1>
                 <p className="WengeBrown">
                     An easy and quick dish, perfect for any meal. This classic
@@ -14,7 +14,7 @@ function App() {
                     meats.
                 </p>
 
-                <section className="bg-RoseWhite padding-md" aria-labelledby="Preparation">
+                <section className="bg-RoseWhite padding-400" aria-labelledby="Preparation">
                     <h2 className="text-Nutmeg" id="Preparation">
                         Preparation time
                     </h2>

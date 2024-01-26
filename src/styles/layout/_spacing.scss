@@ -1,0 +1,22 @@
+@use '../abstracts/settings' as settings;
+
+@each $spesing, $value in settings.$spesings {
+    .padding-block-#{$spesing} {
+        padding-block: #{$value};
+    }
+    .padding-inline-#{$spesing} {
+        padding-inline: #{$value};
+    }
+    .padding-#{$spesing} {
+        padding: #{$value};
+    }
+    .margin-block-#{$spesing} {
+        margin-block: #{$value};
+    }
+    .margin-inline-#{$spesing} {
+        margin-inline: #{$value};
+    }
+    .margin-#{$spesing} {
+        margin: #{$value};
+    }
+}

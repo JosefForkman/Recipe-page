@@ -2,6 +2,7 @@
 
 // Import partials from each folder
 @import "./abstracts/_variables";
+// @import "./abstracts/_settings";
 // @import "abstracts/_mixins";
 @import "base/_reset";
 @import "base/_typography";
@@ -9,5 +10,5 @@
 // @import "components/_forms";
 // @import "components/_cards";
 @import "layout/_ul";
-@import "layout/_paddding";
+@import "layout/_spacing";
 @import "pages/_home";
