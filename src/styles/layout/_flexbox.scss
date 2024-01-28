@@ -1,0 +1,25 @@
+@use '../abstracts/settings' as settings;
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+@each $spesing, $value in settings.$spesings {
+    .gap-#{$spesing} {
+        gap: #{$value};
+    }
+    .gap-row-#{$spesing} {
+        row-gap: #{$value};
+    }
+    .gap-column-#{$spesing} {
+        column-gap: #{$value};
+    }
+}
