@@ -3,9 +3,9 @@ import "./styles/main.scss";
 
 function App() {
     return (
-        <main>
+        <main className="wrapper">
             <img src={omelette} alt="" />
-            <div className="wrapper padding-block-500 padding-inline-400">
+            <div className="flex-column gap-row-600 padding-block-500 padding-inline-400">
                 <h1 className="text-DarkCharcoal">Simple Omelette Recipe</h1>
                 <p className="WengeBrown">
                     An easy and quick dish, perfect for any meal. This classic
@@ -14,7 +14,10 @@ function App() {
                     meats.
                 </p>
 
-                <section className="bg-RoseWhite padding-400" aria-labelledby="Preparation">
+                <section
+                    className="flex-column gap-row-400 bg-RoseWhite padding-400"
+                    aria-labelledby="Preparation"
+                >
                     <h2 className="text-Nutmeg" id="Preparation">
                         Preparation time
                     </h2>
@@ -31,7 +34,10 @@ function App() {
                     </ul>
                 </section>
 
-                <section aria-labelledby="Ingredients">
+                <section
+                    className="flex-column gap-row-400"
+                    aria-labelledby="Ingredients"
+                >
                     <h2 className="text-Nutmeg" id="Ingredients">
                         Ingredients
                     </h2>
@@ -49,7 +55,10 @@ function App() {
 
                 <hr className="border-LightGrey" />
 
-                <section aria-labelledby="Instructions">
+                <section
+                    className="flex-column gap-row-400"
+                    aria-labelledby="Instructions"
+                >
                     <h2 className="text-Nutmeg" id="Instructions">
                         Instructions
                     </h2>
@@ -90,7 +99,7 @@ function App() {
 
                 <hr className="border-LightGrey" />
 
-                <section aria-labelledby="Nutrition">
+                <section className="flex-column gap-row-400" aria-labelledby="Nutrition">
                     <h2 className="text-Nutmeg" id="Nutrition">
                         Nutrition
                     </h2>
