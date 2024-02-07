@@ -5,7 +5,7 @@ function App() {
     return (
         <main className="wrapper">
             <img src={omelette} alt="" />
-            <div className="flex-column gap-row-600 padding-block-500 padding-inline-400">
+            <div className="flex-column gap-row-600 padding-block-500 padding-inline-0-lg padding-inline-400">
                 <h1 className="text-DarkCharcoal">Simple Omelette Recipe</h1>
                 <p className="WengeBrown">
                     An easy and quick dish, perfect for any meal. This classic
@@ -99,7 +99,10 @@ function App() {
 
                 <hr className="border-LightGrey" />
 
-                <section className="flex-column gap-row-400" aria-labelledby="Nutrition">
+                <section
+                    className="flex-column gap-row-400"
+                    aria-labelledby="Nutrition"
+                >
                     <h2 className="text-Nutmeg" id="Nutrition">
                         Nutrition
                     </h2>

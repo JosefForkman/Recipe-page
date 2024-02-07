@@ -1,4 +1,4 @@
-@use '../abstracts/settings' as settings;
+@use "../abstracts/settings" as settings;
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -15,11 +15,68 @@
 @each $spesing, $value in settings.$spesings {
     .gap-#{$spesing} {
         gap: #{$value};
+
+        @include xs {
+            gap: #{$value};
+        }
+        @include sm {
+            gap: #{$value};
+        }
+        @include md {
+            gap: #{$value};
+        }
+        @include lg {
+            gap: #{$value};
+        }
+        @include xl {
+            gap: #{$value};
+        }
+        @include xxl {
+            gap: #{$value};
+        }
     }
     .gap-row-#{$spesing} {
         row-gap: #{$value};
+
+        @include xs {
+            row-gap: #{$value};
+        }
+        @include sm {
+            row-gap: #{$value};
+        }
+        @include md {
+            row-gap: #{$value};
+        }
+        @include lg {
+            row-gap: #{$value};
+        }
+        @include xl {
+            row-gap: #{$value};
+        }
+        @include xxl {
+            row-gap: #{$value};
+        }
     }
     .gap-column-#{$spesing} {
         column-gap: #{$value};
+
+        @include xs {
+            column-gap: #{$value};
+        }
+        @include sm {
+            column-gap: #{$value};
+        }
+        @include md {
+            column-gap: #{$value};
+        }
+        @include lg {
+            column-gap: #{$value};
+        }
+        @include xl {
+            column-gap: #{$value};
+        }
+        @include xxl {
+            column-gap: #{$value};
+        }
     }
 }

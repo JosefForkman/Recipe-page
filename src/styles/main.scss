@@ -3,7 +3,7 @@
 // Import partials from each folder
 @import "./abstracts/_variables";
 // @import "./abstracts/_settings";
-// @import "abstracts/_mixins";
+@import "abstracts/_mixins";
 @import "base/_reset";
 @import "base/_typography";
 // @import "components/_buttons";

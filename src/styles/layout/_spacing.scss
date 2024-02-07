@@ -1,22 +1,136 @@
-@use '../abstracts/settings' as settings;
+@use "../abstracts/settings" as settings;
 
 @each $spesing, $value in settings.$spesings {
     .padding-block-#{$spesing} {
         padding-block: #{$value};
+
+        @include xs {
+            padding-block: #{$value};
+        }
+        @include sm {
+            padding-block: #{$value};
+        }
+        @include md {
+            padding-block: #{$value};
+        }
+        @include lg {
+            padding-block: #{$value};
+        }
+        @include xl {
+            padding-block: #{$value};
+        }
+        @include xxl {
+            padding-block: #{$value};
+        }
     }
     .padding-inline-#{$spesing} {
         padding-inline: #{$value};
+
+        @include xs {
+            padding-inline: #{$value} !important;
+        }
+        @include sm {
+            padding-inline: #{$value} !important;
+        }
+        @include md {
+            padding-inline: #{$value} !important;
+        }
+        @include lg {
+            padding-inline: #{$value} !important;
+        }
+        @include xl {
+            padding-inline: #{$value} !important;
+        }
+        @include xxl {
+            padding-inline: #{$value} !important;
+        }
     }
     .padding-#{$spesing} {
         padding: #{$value};
+
+        @include xs {
+            padding: #{$value};
+        }
+        @include sm {
+            padding: #{$value};
+        }
+        @include md {
+            padding: #{$value};
+        }
+        @include lg {
+            padding: #{$value};
+        }
+        @include xl {
+            padding: #{$value};
+        }
+        @include xxl {
+            padding: #{$value};
+        }
     }
     .margin-block-#{$spesing} {
         margin-block: #{$value};
+
+        @include xs {
+            margin-block: #{$value};
+        }
+        @include sm {
+            margin-block: #{$value};
+        }
+        @include md {
+            margin-block: #{$value};
+        }
+        @include lg {
+            margin-block: #{$value};
+        }
+        @include xl {
+            margin-block: #{$value};
+        }
+        @include xxl {
+            margin-block: #{$value};
+        }
     }
     .margin-inline-#{$spesing} {
         margin-inline: #{$value};
+
+        @include xs {
+            margin-inline: #{$value} !important;
+        }
+        @include sm {
+            margin-inline: #{$value} !important;
+        }
+        @include md {
+            margin-inline: #{$value} !important;
+        }
+        @include lg {
+            margin-inline: #{$value} !important;
+        }
+        @include xl {
+            margin-inline: #{$value} !important;
+        }
+        @include xxl {
+            margin-inline: #{$value} !important;
+        }
     }
     .margin-#{$spesing} {
         margin: #{$value};
+
+        @include xs {
+            margin: #{$value};
+        }
+        @include sm {
+            margin: #{$value};
+        }
+        @include md {
+            margin: #{$value};
+        }
+        @include lg {
+            margin: #{$value};
+        }
+        @include xl {
+            margin: #{$value};
+        }
+        @include xxl {
+            margin: #{$value};
+        }
     }
 }
