@@ -27,22 +27,44 @@
         padding-inline: #{$value};
 
         @include xs {
-            padding-inline: #{$value} !important;
+            padding-inline: #{$value};
         }
         @include sm {
-            padding-inline: #{$value} !important;
+            padding-inline: #{$value};
         }
         @include md {
-            padding-inline: #{$value} !important;
+            padding-inline: #{$value};
         }
         @include lg {
-            padding-inline: #{$value} !important;
+            padding-inline: #{$value};
         }
         @include xl {
-            padding-inline: #{$value} !important;
+            padding-inline: #{$value};
         }
         @include xxl {
-            padding-inline: #{$value} !important;
+            padding-inline: #{$value};
+        }
+    }
+    .padding-bottom-#{$spesing} {
+        padding-bottom: $value;
+
+        @include xs {
+            padding-bottom: #{$value};
+        }
+        @include sm {
+            padding-bottom: #{$value};
+        }
+        @include md {
+            padding-bottom: #{$value};
+        }
+        @include lg {
+            padding-bottom: #{$value};
+        }
+        @include xl {
+            padding-bottom: #{$value};
+        }
+        @include xxl {
+            padding-bottom: #{$value};
         }
     }
     .padding-#{$spesing} {
@@ -93,22 +115,22 @@
         margin-inline: #{$value};
 
         @include xs {
-            margin-inline: #{$value} !important;
+            margin-inline: #{$value};
         }
         @include sm {
-            margin-inline: #{$value} !important;
+            margin-inline: #{$value};
         }
         @include md {
-            margin-inline: #{$value} !important;
+            margin-inline: #{$value};
         }
         @include lg {
-            margin-inline: #{$value} !important;
+            margin-inline: #{$value};
         }
         @include xl {
-            margin-inline: #{$value} !important;
+            margin-inline: #{$value};
         }
         @include xxl {
-            margin-inline: #{$value} !important;
+            margin-inline: #{$value};
         }
     }
     .margin-#{$spesing} {
