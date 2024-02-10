@@ -3,9 +3,9 @@ import "./styles/main.scss";
 
 function App() {
     return (
-        <main className="wrapper">
+        <main className="wrapper padding-block-600-lg">
             <img src={omelette} alt="" />
-            <div className="flex-column gap-row-600 padding-block-500 padding-inline-0-lg padding-inline-400">
+            <div className="flex-column gap-row-600 padding-block-500  padding-bottom-0-lg padding-inline-400 padding-inline-0-lg">
                 <h1 className="text-DarkCharcoal">Simple Omelette Recipe</h1>
                 <p className="WengeBrown">
                     An easy and quick dish, perfect for any meal. This classic
@@ -118,27 +118,27 @@ function App() {
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>Calories</td>
-                                <td className="text-Nutmeg">
+                            <tr className="padding-block-200">
+                                <td className="padding-inline-400 padding-block-200">Calories</td>
+                                <td className="text-Nutmeg padding-block-200">
                                     <b>277kcal</b>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Carbs</td>
-                                <td className="text-Nutmeg">
+                                <td className="padding-inline-400 padding-block-200">Carbs</td>
+                                <td className="text-Nutmeg padding-block-200">
                                     <b>0g</b>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Protein</td>
-                                <td className="text-Nutmeg">
+                                <td className="padding-inline-400 padding-block-200">Protein</td>
+                                <td className="text-Nutmeg padding-block-200">
                                     <b>20g</b>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Fat</td>
-                                <td className="text-Nutmeg">
+                                <td className="padding-inline-400 padding-block-200">Fat</td>
+                                <td className="text-Nutmeg padding-block-200">
                                     <b>22g</b>
                                 </td>
                             </tr>

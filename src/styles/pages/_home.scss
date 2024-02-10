@@ -1,5 +1,8 @@
-// .wrapper {
-//     display: flex;
-//     flex-direction: column;
-//     gap: 2rem;
-// }
+[aria-labelledby="Nutrition"] {
+    table {
+        border-collapse: collapse;
+        tr {
+            border-bottom: 2px solid var(--Eggshell);
+        }
+    }
+}
