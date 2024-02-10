@@ -4,7 +4,7 @@ import "./styles/main.scss";
 function App() {
     return (
         <main className="wrapper padding-block-600-lg">
-            <img src={omelette} alt="" />
+            <img src={omelette} className="radius-300-lg" alt="" />
             <div className="flex-column gap-row-600 padding-block-500  padding-bottom-0-lg padding-inline-400 padding-inline-0-lg">
                 <h1 className="text-DarkCharcoal">Simple Omelette Recipe</h1>
                 <p className="WengeBrown">
@@ -15,7 +15,7 @@ function App() {
                 </p>
 
                 <section
-                    className="flex-column gap-row-400 bg-RoseWhite padding-400"
+                    className="flex-column gap-row-400 bg-RoseWhite padding-400 radius-400"
                     aria-labelledby="Preparation"
                 >
                     <h2 className="text-Nutmeg" id="Preparation">
@@ -119,25 +119,33 @@ function App() {
                         </thead>
                         <tbody>
                             <tr className="padding-block-200">
-                                <td className="padding-inline-400 padding-block-200">Calories</td>
+                                <td className="padding-inline-400 padding-block-200">
+                                    Calories
+                                </td>
                                 <td className="text-Nutmeg padding-block-200">
                                     <b>277kcal</b>
                                 </td>
                             </tr>
                             <tr>
-                                <td className="padding-inline-400 padding-block-200">Carbs</td>
+                                <td className="padding-inline-400 padding-block-200">
+                                    Carbs
+                                </td>
                                 <td className="text-Nutmeg padding-block-200">
                                     <b>0g</b>
                                 </td>
                             </tr>
                             <tr>
-                                <td className="padding-inline-400 padding-block-200">Protein</td>
+                                <td className="padding-inline-400 padding-block-200">
+                                    Protein
+                                </td>
                                 <td className="text-Nutmeg padding-block-200">
                                     <b>20g</b>
                                 </td>
                             </tr>
                             <tr>
-                                <td className="padding-inline-400 padding-block-200">Fat</td>
+                                <td className="padding-inline-400 padding-block-200">
+                                    Fat
+                                </td>
                                 <td className="text-Nutmeg padding-block-200">
                                     <b>22g</b>
                                 </td>
