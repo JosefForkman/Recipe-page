@@ -4,155 +4,36 @@
     .padding-block-#{$spesing} {
         padding-block: #{$value};
 
-        @include xs {
-            padding-block: #{$value};
-        }
-        @include sm {
-            padding-block: #{$value};
-        }
-        @include md {
-            padding-block: #{$value};
-        }
-        @include lg {
-            padding-block: #{$value};
-        }
-        @include xl {
-            padding-block: #{$value};
-        }
-        @include xxl {
-            padding-block: #{$value};
-        }
+        @include media(padding-block, $value);
     }
     .padding-inline-#{$spesing} {
         padding-inline: #{$value};
 
-        @include xs {
-            padding-inline: #{$value};
-        }
-        @include sm {
-            padding-inline: #{$value};
-        }
-        @include md {
-            padding-inline: #{$value};
-        }
-        @include lg {
-            padding-inline: #{$value};
-        }
-        @include xl {
-            padding-inline: #{$value};
-        }
-        @include xxl {
-            padding-inline: #{$value};
-        }
+        @include media(padding-inline, $value);
     }
     .padding-bottom-#{$spesing} {
         padding-bottom: $value;
 
-        @include xs {
-            padding-bottom: #{$value};
-        }
-        @include sm {
-            padding-bottom: #{$value};
-        }
-        @include md {
-            padding-bottom: #{$value};
-        }
-        @include lg {
-            padding-bottom: #{$value};
-        }
-        @include xl {
-            padding-bottom: #{$value};
-        }
-        @include xxl {
-            padding-bottom: #{$value};
-        }
+        @include media(padding-bottom, $value);
     }
     .padding-#{$spesing} {
         padding: #{$value};
 
-        @include xs {
-            padding: #{$value};
-        }
-        @include sm {
-            padding: #{$value};
-        }
-        @include md {
-            padding: #{$value};
-        }
-        @include lg {
-            padding: #{$value};
-        }
-        @include xl {
-            padding: #{$value};
-        }
-        @include xxl {
-            padding: #{$value};
-        }
+        @include media(padding, $value);
     }
     .margin-block-#{$spesing} {
         margin-block: #{$value};
 
-        @include xs {
-            margin-block: #{$value};
-        }
-        @include sm {
-            margin-block: #{$value};
-        }
-        @include md {
-            margin-block: #{$value};
-        }
-        @include lg {
-            margin-block: #{$value};
-        }
-        @include xl {
-            margin-block: #{$value};
-        }
-        @include xxl {
-            margin-block: #{$value};
-        }
+        @include media(margin-block, $value);
     }
     .margin-inline-#{$spesing} {
         margin-inline: #{$value};
 
-        @include xs {
-            margin-inline: #{$value};
-        }
-        @include sm {
-            margin-inline: #{$value};
-        }
-        @include md {
-            margin-inline: #{$value};
-        }
-        @include lg {
-            margin-inline: #{$value};
-        }
-        @include xl {
-            margin-inline: #{$value};
-        }
-        @include xxl {
-            margin-inline: #{$value};
-        }
+        @include media(margin-inline, $value);
     }
     .margin-#{$spesing} {
         margin: #{$value};
 
-        @include xs {
-            margin: #{$value};
-        }
-        @include sm {
-            margin: #{$value};
-        }
-        @include md {
-            margin: #{$value};
-        }
-        @include lg {
-            margin: #{$value};
-        }
-        @include xl {
-            margin: #{$value};
-        }
-        @include xxl {
-            margin: #{$value};
-        }
+        @include media(margin, $value);
     }
 }

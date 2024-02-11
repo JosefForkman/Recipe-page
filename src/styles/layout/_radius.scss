@@ -3,24 +3,7 @@
 @each $spesing, $value in settings.$spesings {
     .radius-#{$spesing} {
         border-radius: #{$value};
-
-        @include xs {
-            border-radius: #{$value};
-        }
-        @include sm {
-            border-radius: #{$value};
-        }
-        @include md {
-            border-radius: #{$value};
-        }
-        @include lg {
-            border-radius: #{$value};
-        }
-        @include xl {
-            border-radius: #{$value};
-        }
-        @include xxl {
-            border-radius: #{$value};
-        }
+        
+        @include media(border-radius, $value);
     }
 }

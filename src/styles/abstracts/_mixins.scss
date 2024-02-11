@@ -42,3 +42,36 @@
         }
     }
 }
+
+@mixin media($cssSelector, $value) {
+    @media (min-width: map-get(settings.$breakpoints, "xs")) {
+        &-xs {
+            #{$cssSelector}: #{$value};
+        }
+    }
+    @media (min-width: map-get(settings.$breakpoints, "sm")) {
+        &-sm {
+            #{$cssSelector}: #{$value};
+        }
+    }
+    @media (min-width: map-get(settings.$breakpoints, "md")) {
+        &-md {
+            #{$cssSelector}: #{$value};
+        }
+    }
+    @media (min-width: map-get(settings.$breakpoints, "lg")) {
+        &-lg {
+            #{$cssSelector}: #{$value};
+        }
+    }
+    @media (min-width: map-get(settings.$breakpoints, "xl")) {
+        &-xl {
+            #{$cssSelector}: #{$value};
+        }
+    }
+    @media (min-width: map-get(settings.$breakpoints, "xxl")) {
+        &-xxl {
+            #{$cssSelector}: #{$value};
+        }
+    }
+}
