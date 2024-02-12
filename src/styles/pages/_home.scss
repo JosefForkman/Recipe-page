@@ -3,6 +3,10 @@
         border-collapse: collapse;
         tr {
             border-bottom: 2px solid var(--Eggshell);
+
+            &:last-child {
+                border-bottom: 0px;
+            }
         }
     }
 }

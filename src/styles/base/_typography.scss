@@ -1,53 +1,54 @@
 @font-face {
-    font-family: 'outfit';
-    src: url('/fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
+    font-family: "outfit";
+    src: url("/fonts/outfit/static/Outfit-Regular.ttf") format("truetype");
     font-weight: normal;
 }
 
 @font-face {
-    font-family: 'outfit';
-    src: url('/fonts/outfit/static/Outfit-SemiBold.ttf') format('truetype');
+    font-family: "outfit";
+    src: url("/fonts/outfit/static/Outfit-SemiBold.ttf") format("truetype");
     font-weight: 600;
 }
 @font-face {
-    font-family: 'outfit';
-    src: url('/fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
+    font-family: "outfit";
+    src: url("/fonts/outfit/static/Outfit-Bold.ttf") format("truetype");
     font-weight: 700;
 }
 
 @font-face {
-    font-family: 'Young Serif';
-    src: url('/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-family: "Young Serif";
+    src: url("/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
     font-weight: normal;
 }
 
 h1 {
-    font-family: 'Young Serif', serif;
+    font-family: "Young Serif", serif;
     font-weight: normal;
     font-size: 2.5rem;
 }
 
 h2 {
-    font-family: 'outfit', sans-serif;
+    font-family: "outfit", sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
 }
 
 p {
-    font-family: 'outfit', sans-serif;
+    font-family: "outfit", sans-serif;
     line-height: 1.5;
 }
 
-ul, ol {
-    font-family: 'outfit', sans-serif;
+ul,
+ol {
+    font-family: "outfit", sans-serif;
 }
 
 table {
-    font-family: 'outfit', sans-serif;
+    font-family: "outfit", sans-serif;
 }
 
-@media (width >= 650px) {
-    html {
+html {
+    @media (width >= 650px) {
         font-size: 1.3rem;
     }
 }

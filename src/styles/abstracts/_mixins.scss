@@ -43,6 +43,9 @@
     }
 }
 
+/* Media queries */
+// https://css-tricks.com/approaches-media-queries-sass/
+
 @mixin media($cssSelector, $value) {
     @media (min-width: map-get(settings.$breakpoints, "xs")) {
         &-xs {
