@@ -112,14 +112,14 @@ function App() {
                     </p>
                     <table>
                         <thead>
-                            <tr className="sr-only">
-                                <th>Type</th>
-                                <th>value</th>
+                            <tr>
+                                <th className="sr-only">Type</th>
+                                <th className="sr-only">value</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr className="padding-block-200">
-                                <td className="padding-inline-400 padding-block-200">
+                                <td className="padding-left-500 padding-block-200">
                                     Calories
                                 </td>
                                 <td className="text-Nutmeg padding-block-200">
@@ -127,7 +127,7 @@ function App() {
                                 </td>
                             </tr>
                             <tr>
-                                <td className="padding-inline-400 padding-block-200">
+                                <td className="padding-left-500 padding-block-200">
                                     Carbs
                                 </td>
                                 <td className="text-Nutmeg padding-block-200">
@@ -135,7 +135,7 @@ function App() {
                                 </td>
                             </tr>
                             <tr>
-                                <td className="padding-inline-400 padding-block-200">
+                                <td className="padding-left-500 padding-block-200">
                                     Protein
                                 </td>
                                 <td className="text-Nutmeg padding-block-200">
@@ -143,7 +143,7 @@ function App() {
                                 </td>
                             </tr>
                             <tr>
-                                <td className="padding-inline-400 padding-block-200">
+                                <td className="padding-left-500 padding-block-200">
                                     Fat
                                 </td>
                                 <td className="text-Nutmeg padding-block-200">
