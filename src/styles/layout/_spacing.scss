@@ -16,6 +16,11 @@
 
         @include media(padding-bottom, $value);
     }
+    .padding-left-#{$spesing} {
+        padding-left: #{$value};
+
+        @include media(padding, $value);
+    }
     .padding-#{$spesing} {
         padding: #{$value};
 
