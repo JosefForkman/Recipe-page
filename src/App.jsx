@@ -3,9 +3,9 @@ import "./styles/main.scss";
 
 function App() {
     return (
-        <main className="wrapper padding-block-600-lg">
+        <main className="wrapper bg-White padding-600-lg radius-400-lg">
             <img src={omelette} className="radius-300-lg" alt="" />
-            <div className="flex-column gap-row-600 padding-block-500  padding-bottom-0-lg padding-inline-400 padding-inline-0-lg">
+            <div className="flex-column gap-row-600 padding-block-500 padding-bottom-0-lg padding-inline-400 padding-inline-0-lg">
                 <h1 className="text-DarkCharcoal">Simple Omelette Recipe</h1>
                 <p className="WengeBrown">
                     An easy and quick dish, perfect for any meal. This classic
@@ -13,7 +13,6 @@ function App() {
                     optionally filled with your choice of cheese, vegetables, or
                     meats.
                 </p>
-
                 <section
                     className="flex-column gap-row-400 bg-RoseWhite padding-400 radius-400"
                     aria-labelledby="Preparation"
@@ -33,7 +32,6 @@ function App() {
                         </li>
                     </ul>
                 </section>
-
                 <section
                     className="flex-column gap-row-400"
                     aria-labelledby="Ingredients"
@@ -52,9 +50,7 @@ function App() {
                         </li>
                     </ul>
                 </section>
-
                 <hr className="border-LightGrey" />
-
                 <section
                     className="flex-column gap-row-400"
                     aria-labelledby="Instructions"
@@ -96,9 +92,7 @@ function App() {
                         </li>
                     </ol>
                 </section>
-
                 <hr className="border-LightGrey" />
-
                 <section
                     className="flex-column gap-row-400"
                     aria-labelledby="Nutrition"
