@@ -1,6 +1,6 @@
 @use "../abstracts/settings" as settings;
 
-@each $spesing, $value in settings.$spesings {
+@each $spesing, $value in settings.$spacings {
     .radius-#{$spesing} {
         border-radius: #{$value};
         
