@@ -7,7 +7,7 @@ function App() {
             <img src={omelette} className="radius-300-lg" alt="" />
             <div className="flex-column gap-row-600 padding-block-500 padding-bottom-0-lg padding-inline-400 padding-inline-0-lg">
                 <h1 className="text-DarkCharcoal">Simple Omelette Recipe</h1>
-                <p className="WengeBrown">
+                <p className="text-WengeBrown">
                     An easy and quick dish, perfect for any meal. This classic
                     omelette combines beaten eggs cooked to perfection,
                     optionally filled with your choice of cheese, vegetables, or
@@ -100,7 +100,7 @@ function App() {
                     <h2 className="text-Nutmeg" id="Nutrition">
                         Nutrition
                     </h2>
-                    <p>
+                    <p className="text-WengeBrown">
                         The table below shows nutritional values per serving
                         without the additional fillings.
                     </p>
@@ -112,7 +112,7 @@ function App() {
                             </tr>
                         </thead>
                         <tbody>
-                            <tr className="padding-block-200">
+                            <tr>
                                 <td className="padding-left-500 padding-block-200">
                                     Calories
                                 </td>
